@@ -1,3 +1,11 @@
+# there are less expensive ways to get the same outcome as in this method.
+#This implementation is meant to practice
+#merge_sort
+
+# Method that returns an array of the digits of a
+# non-negative integer in descending order and as strings, e.g.,
+# descending_digits(4291) #=> ["9", "4", "2", "1"]
+
 
 def descending_digits(int)
   if int.is_a?(Integer)
